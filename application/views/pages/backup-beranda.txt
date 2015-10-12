@@ -1,0 +1,233 @@
+<script type="text/javascript">
+  function editstock(kdbr,ide){
+    var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function() {
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                 document.getElementById("result").innerHTML = xmlhttp.responseText;
+             }
+         }
+         switch(ide){
+            case 0:
+            xmlhttp.open("GET", window.location.origin+"/toko/gudang/editstock?kd="+kdbr+"&e=o", true);
+            break;
+            case 1:
+            xmlhttp.open("GET", window.location.origin+"/toko/gudang/editstock?kd="+kdbr+"&e=l", true);
+            break;
+            case 2:
+            xmlhttp.open("GET", window.location.origin+"/toko/gudang/editstock?kd="+kdbr+"&e=r", true);
+            break;
+
+         }
+         xmlhttp.send();
+  }
+</script>
+<div id="result"></div>
+<div class="row">
+                       <div class="col-xs-12">
+<!---++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<?php
+foreach ($stock as $ks => $vstock) {
+  $stocknya=$vstock['kdstock'];
+  switch ($stocknya) {
+        case $stocknya:?>
+        <?php $w=$vstock['idstc'];?>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="<?php echo '#'.$stocknya;?>" aria-expanded="true" aria-controls="<?php echo $stocknya;?>">
+         <?php echo $vstock['desc'];?>
+        </a>
+      </h4>
+    </div>
+    <div id="<?php echo $stocknya;?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+             <td>aksi</td>
+            <?php
+            foreach ($kolombrg as $kol) {?>
+              <td><?php echo $kol;?></td>
+            <?php }?>
+            </tr>
+          </thead>
+          <tbody>
+          <?php
+          $query=mysql_query("SELECT * FROM barang where stock='".$stocknya."'");
+             if ($query) { 
+              ?>
+                <?php  while ($baris=mysql_fetch_array($query)) { ?>
+                <tr>
+                  <td>
+                     <?php if (!(isset($_POST['edit'.$w]))):?>
+              <form action="<?php $_SERVER['PHP_SELF']?>" method="post"><button type="submit" name="<?php echo 'edit'.$w;?>" class="btn btn-sm btn-primary">edit</button></form>
+              <?php else:
+              ?>
+                  <a href="#" class="label label-success" onclick="<?php echo 'editstock('.$baris['kdbarang'].',2)';?>">sedia</a>
+                  <a href="#" class="label label-warning" onclick="<?php echo 'editstock('.$baris['kdbarang'].',1)';?>">terbatas</a>
+                  <a href="#" class="label label-danger" onclick="<?php echo 'editstock('.$baris['kdbarang'].',0)';?>">habis</a>
+                <?php endif;?>
+                  </td>
+                  <?php  foreach ($kolombrg as $kkolombrg) { ?>
+                      <td>
+                      <?php 
+                      switch ($kkolombrg) {
+                        case 'kdbarang': ?>
+                          <a data-toggle="modal" href="<?php echo site_url('gudang/detailbrg/'.$baris[$kkolombrg]);?>" ><?php echo $baris[$kkolombrg];?></a>
+                        <?php  break;
+                        case 'stock':
+                          echo($vstock['desc']);
+                          break;
+                        default:
+                          echo($baris[$kkolombrg]);
+                          break;
+                      }
+                      ?>
+                      </td>
+                  <?php } ?>
+
+              <?php   
+              $w++;
+              } ?>
+                </tr>
+             <?php }else{ ?>
+             <tr>
+               <td colspan="<?php echo(count($kolombrg));?>"><?php echo('Tidak ada hasil');?></td>
+             </tr>
+              <?php } ?>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <?php  break;
+  }
+    
+}
+?>
+<!---++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+                       </div>
+                </div>
+<!-- /.row -->
+<!-- Button trigger modal -->
+<script type="text/javascript">
+  function klik() {
+      document.getElementById('btnmodal').click();
+  }
+  function kembali() {
+    window.location ='http://localhost/toko/index.php/gudang';
+  }
+</script>
+<div style="display:none;">
+  <a href="#myModal" id="btnmodal" data-toggle="modal" >
+  Launch demo modal
+</a>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><a href="#" onclick="kembali()">&times;</a></span></button>
+        <h4 class="modal-title" id="myModalLabel">Produk 
+        <?php 
+          if (!empty($ststock)) {
+            switch ($ststock) {
+              case 'r':
+                echo('Tersedia');
+                break;
+              case 'o':
+                echo('Habis');
+                break;
+              case 'l':
+                echo('Terbatas');
+                break;
+              default:
+                echo('unknown');
+                break;
+            }
+          }
+        ?>
+        </h4>
+      </div>
+      <div class="modal-body">
+        <?php if (!empty($detailbrg)) : ?>
+                          <div class="table-responsive">
+        <table class="table">
+          <thead>
+          <tr>
+            <?php foreach ($kolomtemp as $vkolomtemp) { ?>
+            <?php switch ($vkolomtemp) {
+              case 'idmng': ?>
+                <td><?php echo('proses');?></td>
+              <?php  break; 
+              default: ?>
+                <td><?php echo($vkolomtemp);?></td>
+              <?php  break;
+            }?>
+            <?php }?>
+          </tr>
+          </thead>
+          <tbody>
+            <?php foreach ($detailbrg as $detbrg) { ?>
+              <tr>
+              <?php foreach ($kolomtemp as  $vkoltemp) { ?>
+              <?php
+              switch ($vkoltemp) {
+                case 'idmng': ?>
+                  <td>
+                  <?php
+                    switch ($detbrg[$vkoltemp]) {
+                      case '6':
+                        echo('invoice');
+                        break;
+                      case '7':
+                        echo('quotation');
+                        break;
+                      case '12':
+                        echo('pembelian');
+                        break;
+                      case '13':
+                        echo('Penjualan');
+                        break;
+                      default:
+                        echo('unknown');
+                        break;
+                    }
+                  ?>
+                  </td>
+                <?php  break;
+                case 'idaksi': ?>
+                  <td>
+                  <!--<?php //echo(site_url('gudang/getdetails/'.$detbrg[$vkoltemp].'/'.$detbrg['idmng']));?>-->
+                    <a href="#"><?php echo($detbrg[$vkoltemp]);?></a>
+                  </td>
+                <?php  break;
+                default : ?>
+                <td><?php echo($detbrg[$vkoltemp]);?></td>
+                <?php break;
+              }
+              ?>
+                <?php   }?>
+              </tr>
+            <?php }?>
+          </tbody>
+        </table>
+      </div>
+        <?php else:?>
+            hasil tidak ditemukan
+        <?php endif; ?>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn btn-default" data-dismiss="modal" onclick="kembali()">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
+

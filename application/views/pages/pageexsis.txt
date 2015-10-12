@@ -1,0 +1,13 @@
+        <?php 
+          $kdmenu=$this->uri->segment(3);
+          if($kdmenu==2): ?>
+         
+        <?php  endif;?>
+        <?php
+        $pathpage=APPPATH.'views/pages/'.$val["page"].".php";
+        if(file_exists($pathpage)){
+              include(APPPATH."views/pages/".$val["page"].".php");
+        }else{
+              echo "The file $pathpage does not exist";
+        } 
+        ?>

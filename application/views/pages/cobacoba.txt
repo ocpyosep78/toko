@@ -1,0 +1,33 @@
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+	<?php foreach ($page as $val): ?>
+  <li role="presentation"><a href="<?php echo '#'.$val['page'];?>" role="tab" data-toggle="tab"><?php echo $val["page_name"];?></a></li>
+  <?php endforeach;?>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+	<?php foreach ($page as $val): ?>
+  <div role="tabpanel" class="tab-pane" id="<?php echo $val['page'];?>">
+  	<?php 
+
+  	$pathpage=APPPATH.'views/pages/'.$val["page"].".php";
+	if(file_exists($pathpage)){
+    	//echo "The file $pathpage exists<br/>";
+      //echo readfile($pathpage);
+      if(readfile($pathpage)==0){
+        $tulisf=fopen($pathpage, "w") or die("Unable to open file!");
+        $txt="<?php echo 'add code here !';";
+        fwrite($tulisf, $txt);
+        fclose($tulisf);
+      }
+      
+    	include(APPPATH."views/pages/".$val["page"].".php");
+	}else{
+	    //echo "The file $pathpage does not exist";
+      $my_file =$val["page"].'.php';
+      $handle = fopen(APPPATH."views/pages/".$my_file, 'w') or die('Cannot open file:  '.$my_file); //implicitly creates file
+	}
+  	?>
+  </div>
+  <?php endforeach;?>
+</div>

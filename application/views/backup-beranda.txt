@@ -1,0 +1,61 @@
+$data['kolombrg']=$this->db->list_fields('barang');
+$data['stock']=$this->mweb->gettable('stock');
+        $qty=$this->mweb->getqtybrg();
+        $brang=$this->mweb->get_barang();
+        $kirim=array();$tangkp=array();$qtyy=array();
+        foreach ($qty as $kqty => $vqty) {
+        $tangkp[]=$vqty['kdbarang'];
+        $qtyy[]=$vqty['qty'];
+      }
+      foreach ($brang as $kb => $vbrang) {
+        if (in_array($vbrang->kdbarang,$tangkp)){
+          $kirim[]=$vbrang->qty;
+        }
+      }
+      $data['qtyb']=$kirim;
+      $data['qtyy']=$qtyy;
+      $data['kdbrg']=$tangkp;
+<div class="row">
+  <table class="table">
+  <tr>
+    <td>kode barang</td>
+    <td>Qty stock</td>
+    <td>Qty terpakai</td>
+    <td>status</td>
+    <td>aksi</td>
+  </tr>
+<?php
+$n=count($qtyb);
+for ($i=0; $i < $n; $i++) { ?>
+<tr>
+  <td>
+  <a href="<?php echo(site_url('gudang?id='.$kdbrg[$i].'&tbl=3'));?>">
+  <?php echo($kdbrg[$i]); ?>  
+  </a>
+  </td>
+  <td>
+  <?php echo($qtyb[$i]); ?>    
+  </td>
+  <td>
+    <?php echo($qtyy[$i]); ?>
+  </td>
+  <td>
+    <?php
+    if ($qtyy[$i] > $qtyb[$i]) {
+      $krg=$qtyy[$i]-$qtyb[$i];
+      echo('kurang '.$krg);
+    }else if ($qtyy[$i]-$qtyb[$i]===0) {
+      echo('habis');
+    }else{
+      $msh=$qtyb[$i]-$qtyy[$i];
+      echo('masih '.$msh);
+    }
+    ?>
+  </td>
+  <td>
+   <a href="#" class="btn btn-sm btn-primary">aksi</a>
+  </td>
+</tr>
+<?php } ?>
+</table>
+</div>

@@ -1,0 +1,148 @@
+public function page($m='1',$offset=0)
+  {
+    if($this->session->userdata('logged_in')){
+        $session_data = $this->session->userdata('logged_in');
+        
+        $jabatan=$session_data['jabatan'];
+        $idu=$session_data['id'];
+        $arr_idm=$this->mweb->menudash($jabatan,$idu);  
+        $data['menu']=$this->mweb->get_menu($arr_idm);
+        $data['lmenu']=$this->mweb->gettable('menu');
+        $data['idact']=$this->mweb->get_cab($idu,$m,$jabatan);
+      $arr_idact=$this->mweb->get_cab($idu,$m,$jabatan);
+        $this->load->view("templates/header");
+        $this->load->view("templates/menu",$data);
+        $arr_idm=$this->mweb->menudash($jabatan,$idu);
+        $pilmenu=$this->mweb->get_menu($arr_idm);
+        foreach($pilmenu as $key => $isi){
+          $cek=$isi["idmenu"];
+            switch($m){
+              case $cek:
+              $data['page']=$this->mweb->get_page_by_idm($m);
+              $alltbl=$this->mweb->get_manage();
+              foreach($alltbl as $alltabel){
+                $idkol="no_".$alltabel->idmng;
+                $isitbl="isi_".$alltabel->idmng;
+                $nmtbl=$alltabel->table;
+                $num_rows=$this->db->count_all($nmtbl);
+                $config['base_url'] = base_url().'index.php/gudang/page/'.$m;
+                $config['total_rows'] = $num_rows;
+                $config['per_page'] = 5;
+                $config['num_links'] = $num_rows;
+                $config['use_page_numbers'] = TRUE;
+                $config['full_tag_open'] = '<ul class="pagination">';
+                $config['full_tag_close'] = '</ul>';
+                $config['prev_link'] = '&laquo;';
+                $config['prev_tag_open'] = '<li>';
+                $config['prev_tag_close'] = '</li>';
+                $config['next_tag_open'] = '<li>';
+                $config['next_tag_close'] = '</li>';
+                $config['cur_tag_open'] = '<li class="active"><a href="#">';
+                $config['cur_tag_close'] = '</a></li>';
+                $config['num_tag_open'] = '<li>';
+                $config['num_tag_close'] = '</li>';
+                $config['next_link'] = '&raquo;';
+                $this->pagination->initialize($config);
+                $data[$idkol]=$this->db->list_fields($nmtbl);
+                $data['tabel']=$this->db->get($nmtbl, $config['per_page'],$offset);// take record of the table
+                $header =$this->db->list_fields($nmtbl); // create table header
+                $tmpl = array ( 'table_open' => '<table class="table table-bordered table-striped table-condensed">' );
+                $this->table->set_template($tmpl);
+                $this->table->set_heading($header);
+                
+              }
+              $data['action']=$this->mweb->get_action($arr_idact);
+              $this->load->view("pages/page",$data);
+              break;
+            }
+
+        }
+        $this->load->view("templates/footer");
+    }else{
+        redirect('login','refresh');
+      }
+
+  }
+<?php
+          $kolom=${"no_".$val["idmng"]};
+          $tabel=${"isi_".$val["idmng"]};?>
+            <?php //include(APPPATH.'views/pages/'.$val["inc_file"].'.php');?>
+<table class="table" >
+    <thead>
+        <tr>
+          <?php  echo ($this->uri->segment(3)=='5') ? "<td>aksi</td>" : ''; ?>
+            <?php foreach ($kolom as $row): ?>
+                <td><?php echo $row;?></td>
+            <?php endforeach;?>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($tabel as $baris): ?>
+    <tr>
+      <?php 
+      $stacc='';
+      $acc='';
+      if ($this->uri->segment(3)=='5' && $baris['acc']===NULL){
+        $acc='pending';
+        $stacc='not yet';
+      }elseif ($this->uri->segment(3)=='5' && $baris['acc']=='1') {
+        $acc='accepted';$stacc='already';
+      }elseif (is_admin() && $this->uri->segment(3)=='5') {
+        $acc='<a href="'.site_url('gudang/sendemail/'.$baris['id'].'/'.$val['idmng']).'" class="btn btn-sm btn-success">Send</a>';
+      }else{
+        $acc='';
+      }
+      ?>
+        <?php  echo ($this->uri->segment(3)=='5') ? "<td>".$acc." | <a href='".site_url('gudang/createpdf/'.$val['idmng']."/".$baris['id'])."'>pdf</a></td>" : ''; ?>
+        <?php foreach ($kolom as $rows): ?>
+
+        <td><?php 
+        if ($rows==='acc') {
+          echo $stacc;
+        }elseif ($rows==='status') {
+          switch ($baris[$rows]) {
+            case '0':
+              echo 'deposit';
+              break;
+            case '1':
+              echo 'paid';
+              break;
+            default:
+              echo 'unpaid';
+              break;
+          }
+        }elseif ($rows=='password') {
+            echo preg_replace('/(?!^.?).(?!.{0}$)/', '*', $baris[$rows]);
+        }elseif ($rows=='idaksi') {
+            $kdinv=mysql_query("SELECT * FROM invoice WHERE id='".$baris[$rows]."'");
+            while ($bhasil=mysql_fetch_array($kdinv)) {
+                echo($bhasil['kdinv']);
+            }
+            mysql_free_result($kdinv);
+        }elseif ($rows=='stock') {
+            switch ($baris[$rows]) {
+                          case 'r':
+                            echo 'Stok Tersedia';
+                            break;
+                          case 'l':
+                            echo 'Stok Terbatas';
+                            break;
+                          case 'o':
+                            echo 'Stok Habis';
+                            break;
+                          default:?>
+<span class="glyphicon glyphicon-warning-sign"></span>
+                          <?php  break;
+            }
+        }elseif ($rows===array_shift(array_slice($kolom, 0, 1))){ ?>
+            <a href="<?php echo(site_url('gudang/getdetails/'.$baris[$rows].'/'.$val['idmng']));?>"><?php echo $baris[$rows];?></a>
+        <?php }else{
+          echo $baris[$rows];
+        }
+        ?></td>
+        <?php endforeach;?>
+        
+    </tr>
+    <?php endforeach;?>
+    </tbody>
+  </table>

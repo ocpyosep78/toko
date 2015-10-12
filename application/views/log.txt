@@ -1,0 +1,271 @@
+15,2015-02-15 05:46:53,request,15,,sandal bandol,bandol-1,15-02-2015 05:46:53
+1,2015-02-15 05:47:28,purchase,,9,dlakdlsdlad,dsadadsad,,,,,,,,15-02-2015 05:47:28
+
+1,2015-02-15 06:02:55,purchase,,9,kjfdskfsaa,da,,,,,,,,15-02-2015 06:02:55
+
+1,2015-02-15 06:27:57,barang,,bandol-1,sandal bandol+    				sandal bandol    			,15000,1000,16000,500,a,125
+
+1,2015-02-16 12:05:55, delete Data <b>quotation</b> , id=<b>id</b>
+15,2015-02-16 12:07:54,request,15,,alat canggih,s-01,16-02-2015 12:07:54
+
+16,2015-02-16 12:34:46,purchase,,9,dfdsf,fdfs,dfsdfdf,,,,,,,16-02-2015 12:34:46
+
+15,2015-02-16 03:21:20,quotation,THC/QUO/02/16/2,15,2015-02-16,122,sd asdsad saddsdsadsadsadad,dsadsa,dsdsadsa,0,dsdasda,dasdsadsa,dasdsad,2312323,52434,firmawan801@yahoo.com,217|2048,1|1,100000|56666,800000|1750000,700000|1693334,,2393334,gunakan bahasa yang baik dan benar,15
+
+15,2015-02-16 03:33:47, delete Data <b>quotation</b> , id=<b>id</b>
+15,2015-02-16 04:03:45,quotation,THC/QUO/02/16/3,15,2015-02-16,124,dfdsfdsfdsf,dfsdfdsf,fdwr324erew,0,dfds fdsfds aff df,dasdasda,dsad,afdasfdfsdaf ,fdsfa fsdfs,firmawan@yahoo.com,28,1,5000,13200000,13195000,,13195000,adasdsadsd s,15
+
+15,2015-02-16 04:04:29,quotation,THC/QUO/02/16/4,15,2015-02-17,1212128,sd;ljas ;djs asdjsadlkj asljasdlksajdklsajhdklsajhdkh kjhdjashdsjakdhsajdh,baturaden,jawa tengah,109,indonesia,sadsad,dsadsadsa,8908298,8390284238,firmawanwan@yahoo.com,,,,,,,0,dsadsdssdsdsa,15
+
+1,2015-02-16 04:06:16, delete Data <b>quotation</b> , id=<b>id</b>
+14,2015-02-16 04:07:37,quotation,THC/QUO/02/16/4,14,2015-02-16,1212128,sd;ljas ;djs asdjsadlkj asljasdlksajdklsajhdklsajhdkh kjhdjashdsjakdhsajdh,baturaden,jawa tengah,109,indonesia,dsadss,dsadasd,8908298,8390284238,firmawanwan@yahoo.com,652|153,2|1,21111|765555,925000|1600000,1807778|834445,,2642223,fasdsad adasdsadsadas,14
+
+14,2015-02-16 04:07:52, delete Data <b>quotation</b> , id=<b>id</b>
+14,2015-02-16 04:08:38, delete Data <b>antrian</b> , id=<b>id</b>
+14,2015-02-16 04:09:05, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-16 04:10:40, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-16 04:11:36, delete Data <b>quotation</b> , id=<b>id</b>
+1,2015-02-16 04:17:10, delete Data <b>quotation</b> , id=<b>id</b>
+14,2015-02-16 04:17:40, delete Data <b>quotation</b> , id=<b>id</b>
+1,2015-02-16 04:26:06,quotation,THC/QUO/02/16/1,1,,124,dfdsfdsfdsf,dfsdfdsf,fdwr324erew,0,dfds fdsfds aff df,dsdsa,dsdsdsa,afdasfdfsdaf ,fdsfa fsdfs,firmawan@yahoo.com,652|391,1|1,20000|23000,925000|7200000,905000|7177000,,8082000,jika ada barang yang rusak mohon segera konfirmasi,10
+
+1,2015-02-16 04:57:14,invoice,THC/INV/02/16/1,1,,,firmawan@yahoo.com,,,,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df                                        ,,dasdas,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df                                        ,321313123,ewe321312,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df                                        ,42112313,,,652|391,1|1,925000|7200000,20000|23000,,905000|7177000,8082000,,
+
+1,2015-02-16 04:57:30, delete Data <b>invoice</b> , id=<b>id</b>
+15,2015-02-18 04:41:14, delete Data <b>barang</b> , id=<b>kdbarang</b>
+13,2015-02-19 01:30:41, delete Data <b>brosur</b> , id=<b>id</b>
+14,2015-02-19 03:22:55, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-19 03:23:02, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-19 04:12:19,postprod,14,17,14,http://kode-sederhana.blogspot.com/,19-02-2015 04:12:19
+
+14,2015-02-19 04:14:15,quotation,THC/QUO/02/19/2,14,2015-02-19,1212128,sd;ljas ;djs asdjsadlkj asljasdlksajdklsajhdklsajhdkh kjhdjashdsjakdhsajdh,baturaden,jawa tengah,109,indonesia,adsadas,dasdadasd,8908298,8390284238,firmawanwan@yahoo.com,394|186,1|2,50000|12000,1900000|1200000,1850000|2376000,,4226000,jika ada yang rusak segera konfirmasi,14
+
+14,2015-02-19 05:01:12, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-19 05:01:28, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-19 05:01:40, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-19 05:04:00,invoice,THC/INV/02/19/1,14,,,firmawan@yahoo.com,sdsadsa,ddasd,adsadsa,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,,dsadsad,dasdasdsdsdsd
+                                    ,3213323,dsads,dsadsdasad,312321,,dsadasdsad,,,,,,,,,14
+
+14,2015-02-19 05:04:35, delete Data <b>invoice</b> , id=<b>id</b>
+14,2015-02-19 05:05:32,invoice,THC/INV/02/19/2,14,2015-02-19,,firmawan@yahoo.com,eweqewq,ewqewe,ewqewewewq,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,,frewrwer,ewewoeiowqeipwewqeq                	
+                 r                   ,4424234324,ewqeqweq we,eewewqev weweqe                       ,42342342,,eweqwew,,,,,,,,,14
+
+1,2015-02-19 05:06:48, delete Data <b>invoice</b> , id=<b>id</b>
+14,2015-02-19 05:11:09,invoice,THC/INV/02/19/1,14,2015-02-19,,firmawan@yahoo.com,dsadasd,dsadsad,adsadasdsa,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,,dsadsad,dsadasdsadsa         ,32132321,dasdsadsa,dasdsadsad                
+                                        ,231321,,dasd,,,,,,,,,14
+
+14,2015-02-19 05:17:12,invoice,THC/INV/02/19/1,14,2015-02-19,124,firmawan@yahoo.com,weqw,weqwe,eqewqewe,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,,dasdad,dsadsadsadsdsdasd   ,31231231231,weweeq,dasdsadsadsa                          ,1312312,,weqe,17|652,1|1,700000|925000,100|23000,,699900|902000,,,14
+
+14,2015-02-20 01:13:21,quotation,THC/QUO/02/20/3,14,2015-02-20,1212123,asdjl sa;dlasjk ;slkdasdksa;ldksal,purwokerto,dsdsadasds,0,sddsadsads,ewewqe,eqweqwe,5497667867,345354,firmawan804@yahoo.com,227|177,1|1,2344|120000,1500000|2200000,1497656|2080000,,3577656,jika ada barang yang rusak segera konfirmasi,14
+
+14,2015-02-20 01:35:08,invoice,THC/INV/02/20/1,14,2015-02-19,124,firmawan@yahoo.com,adsdasd,sadsdsad,saddsadsa,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,,sdsdsadsad,dasdd dsadsads dsa dsads,4242344,sadsadsadd,ad dasddasdsa                                            
+                                        ,34242342,,ewqe,227|177,1|1,1500000|2200000,2344|120000,,1497656|2080000,,,14
+
+14,2015-02-20 01:44:10,invoice,THC/INV/02/20/1,14,2015-02-20,124,firmawan@yahoo.com,dsadda,sdasdsada,sdada,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,7656464646,wewqewe,ewewqeqewewew e
+wewoeiwqpeiwqoeqw
+ewoeowqei wewqe
+eqew                    	
+                                    ,133123123,ewe fsaas,weoqweowqeoqwee
+wewqejweojwqeqw
+ewewqjeowqewq                                  
+                                        ,23131231,,asdasddasdsad,227|177,1|1,1500000|2200000,2344|120000,,1497656|2080000,3577656,,14
+
+14,2015-02-20 01:49:03, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-20 01:55:20, delete Data <b>invoice</b> , id=<b>id</b>
+1,2015-02-20 01:55:51, delete Data <b>invoice</b> , id=<b>id</b>
+14,2015-02-20 02:34:45,invoice,THC/INV/02/20/1,14,,124,firmawan@yahoo.com,asdadasd,asdsad,dsada,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,7656464646,eqeqwe,wejqe eqe elkwqlekqe
+wjelqwkelkwe
+elqwelwkelqe
+ewqeq                     	
+                                    ,31233123,saSas,ewoewqoewqe
+kwjekwjekweq
+ewjeqweq                                  
+                                        ,321312312,,dsadasd,227|177,1|1,1500000|2200000,2344|120000,,1497656|2080000,3577656,,14
+
+14,2015-02-20 03:11:28,request,14,,Power Bank Vivan,S322 6600mAh SCUD,20-02-2015 03:11:28
+
+16,2015-02-20 03:12:23,purchase,,10,www.tokopedia.com,,,,,,,,,20-02-2015 03:12:23
+
+16,2015-02-20 03:36:07,purchase,,10,dasdadasd,dasdadasd,dsadsadsad,312312,231321,3213131,pangkalanbun16@gmail.com,https://www.tokopedia.com/asolution/distributor-resmi-vivan-powerbank-4400mah-robot-rt4400,150000,20-02-2015 03:36:07
+
+1,2015-02-20 03:47:43,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 03:48:45,postprod,1,2592,10,https://www.tokopedia.com/asolution/vivan-powerbank-s322-6600mah-scud,20-02-2015 03:48:45
+
+1,2015-02-20 04:08:50,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:13:00,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:15:30,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:30:11,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:31:02,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:32:25,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+1,2015-02-20 04:34:45,barang,,S322 6600mAh SCUD,Power Bank Vivan+Power Bank Vivan,160000,10000,170000,15,a,100
+
+14,2015-02-20 04:35:15, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-20 04:35:19, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-20 04:35:23, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-20 04:35:39, delete Data <b>notif</b> , id=<b>id</b>
+14,2015-02-24 07:52:56,invoice,THC/INV/02/24/2,14,2015-02-24,124,firmawan@yahoo.com,dsadsa,dsadada,dasdasdas,dfdsfdsfdsf,dfsdfdsf,,fdwr324erew,0,dfds fdsfds aff df,7656464646,dasdasdsad,dasdsadas adas d asdadasdsadsadsa            	
+                                    ,421312312,dasdsad ,das sd dad saadad                  ,313213121,,sdasdsa,739|186,1|2,13800000|1200000,50000|12000,,13750000|2376000,16126000,,14
+
+14,2015-02-24 07:56:34,request,14,,Xiaomi Redmi 2 - Black,XOHP04BK,24-02-2015 07:56:34
+
+14,2015-02-24 09:00:47,request,14,,ASUS Zenfone 5 ,A500CG,Processor Onboard	2x2: Intel® Atom™ Multi-Core Z2560 Processor 1.6 with Intel Hyper-Threading Technology
+O/S Provided	Android Jelly Bean 4.3 ( will update to 4.4 KitKat ) with ASUS ZenUI
+Standard Memory	2GB RAM eMMC 16GB
+MicroSD Card Support (up to 64GB)
+ASUS WebStorage 5G/Lifetime
+Camera	Main Camera : 8 MP f/2.0 PixelMaster Camera
+Front Camera : 2 MP
+Dimension	148.2(L) x 72.8(W) x 5.5-10.34(H) mm
+Display Technology	TFT LED Backlight with Corning® Gorilla® Glass 3
+Display Max. Resolution	1280 x 720 HD IPS
+Display Size	5"
+General 3G Network	GSM / GPRS/EDGE ; WCDMA / HSPA+
+DC-HSPA+ ( DL / UL ) : 42 / 5.76 Mbps
+GSM 850 / 900 / 1800 / 1900 ; UMTS 850 / 900 / 1900 / 2100
+Wireless Network Type	Integrated 802.11 b/g/n ; WiFi-Direct
+Battery Type	Un-removable polymer battery
+Battery Capacity	8Wh, Typ 2110mAH
+Bluetooth	Bluetooth V 4.0 ( EDR + A2DP )
+Interface Provided	Headphone jack / Micro USB / Dual Micro SIM
+Others	Supports GloveTouch input,24-02-2015 09:00:47
+
+16,2015-02-24 09:06:46,purchase,,12,jakartanotebook,,,,,,,,,24-02-2015 09:06:46
+
+15,2015-02-24 04:46:58,request,15,,laptop,kda-121,kdsakdjkd jdkjsad skdjsakjdsadjkjsdhsjdj,24-02-2015 04:46:58
+
+16,2015-02-24 04:48:15,purchase,,11,jakarta notebook,,,,,,,,,24-02-2015 04:48:15
+
+1,2015-02-24 04:52:00,barang,,kda-121,laptop+laptop,14000000,1000000,15000000,15,a,100
+
+16,2015-02-24 05:01:08,purchase,,8,dajdksjada,jdskajkdas,dasdsdka,921090,20109,90210,iwanfirmawan69@gmail.com,http://activities.aliexpress.com/sports-clothes.php?alpsm=true&sms=sughot&aff_platform=aaf&sk=vAfAFf2%3A&cpt=1421985171728,133400,24-02-2015 05:01:08
+
+14,2015-02-26 02:29:12,request,14,,dsadsadsd,32-231,dsad sdasdasdsadsadasd,26-02-2015 02:29:12
+
+1,2015-02-27 04:02:55, delete Data <b>barang</b> , id=<b>kdbarang</b>
+1,2015-02-27 05:13:37, delete Data <b>barang</b> , id=<b>kdbarang</b>
+1,2015-02-27 05:14:24, delete Data <b>barang</b> , id=<b>kdbarang</b>
+1,2015-02-28 11:15:05,cus,,1,ilyas,fdsfasasasdsada,purwokerto,banyumas,jawa tengah,42112,indonesia,firmawan804@yahoo.com,3213213,2313123,23213123,312312312,iwan firmawan,bca
+
+1,2015-02-28 04:22:59,quotation,THC/QUO/02/28/1,1,,1,fdsfasasasdsada,purwokerto,jawa tengah,42112,indonesia,ddsda,dsadsadsad,3213213,2313123,firmawan804@yahoo.com,6|643,1|1,10|121211,4400000|1625000,4399990|1503789,,5903779,jika ada barang yang rusak segera konfirmasi,10
+
+14,2015-03-03 08:03:36,request,14,,android one,mito-123,daksjdna lalskdjaksldj sadljdjasd ladjsakdasddasd,03-03-2015 08:03:36
+
+14,2015-03-03 08:24:28,cus,,14,dasdsad,dsadasd,dsadas,dsadasd,dasda,,,,,,,,,
+
+14,2015-03-03 08:25:29,quotation,THC/QUO/03/03/1,14,2015-03-03,1,dsadasd,dsadas,dasda,0,,dsadasdas,dsadas,321312,23131231,iwanfirmawan69@gmail.com,185,1,101111,1200000,1098889,,1098889,dasdadsdsadsadsad,0
+
+14,2015-03-03 08:28:40,quotation,THC/QUO/03/03/1,14,2015-03-03,1,dsadasd,dsadas,dasda,0,,dasdasd,sdsadas,86576,2321312,iwanfirmawan69@gmail.com,185|187,1|1,101111|10,1200000|1300000,1098889|1170000,,2268889,dsa da sasda sdsdadsa dasda,0
+
+16,2015-03-03 09:31:26,cus,,16,iwan firmawan,gdgdfgdf,fgdgfdg,dfgdgdf,gfdgdfgdfgdf,5435354,dfdfdsfsf,firmawan804@yahoo.com,543534543,54535435,firmawan804,43ssd,44324324,iwan firmawan,fdsf
+
+16,2015-03-03 09:33:13,quotation,THC/QUO/03/03/4330,16,2015-03-03,1,gdgdfgdf,fgdgfdg,gfdgdfgdfgdf,5435354,dfdfdsfsf,,,543534543,54535435,firmawan804@yahoo.com,794,1,10,900000,810000,,810000,,0
+
+16,2015-03-03 09:56:01,invoice,THC/INV/03/03/1,16,2015-03-03,1,firmawan804@yahoo.com,fd,fdfd,tdd,gdgdfgdf,fgdgfdg,dfgdgdf,gfdgdfgdfgdf,5435354,dfdfdsfsf,543534543,dsdsdd,              ttyff                      	
+        reresrs                            ,656645,fddsf, hghgfyfyfyfyf                                          
+                                        ,6754665,,fgfdf,794,1,900000,10,,810000,810000,,12
+
+1,2015-03-03 01:57:11, delete Data <b>notif</b> , id=<b>id</b>
+1,2015-03-03 02:06:12, delete Data <b>cus</b> , id=<b>idcus</b>
+1,2015-03-03 04:23:54, delete Data <b>quotation</b> , id=<b>id</b>
+1,2015-03-03 04:24:00, delete Data <b>invoice</b> , id=<b>id</b>
+1,2015-03-03 04:24:34, delete Data <b>notif</b> , id=<b>id</b>
+1,2015-03-03 04:24:38, delete Data <b>notif</b> , id=<b>id</b>
+1,2015-03-03 04:24:43, delete Data <b>notif</b> , id=<b>id</b>
+1,2015-03-03 05:27:04,cus,,1,lorem,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,firmawan804@yahoo.com,09201931,09320131,e32313,21321312,23193012,iwan firmawan,cnb
+
+1,2015-03-03 05:38:29,quotation,THC/QUO/03/03/4330,1,2015-03-03,1,jln DI PANJAITAN no. 128,purwokerto,jawa tengah,53131,indonesia,ewqeqw,ewewqe,09201931,09320131,firmawan804@yahoo.com,249,1,101111,2000000,1898889,,1898889,jika ada barang yang rusak mohon dikonfimasi,16
+
+1,2015-03-03 05:52:22,quotation,THC/QUO/03/03/4332,1,2015-03-03,1,jln DI PANJAITAN no. 128,purwokerto,jawa tengah,53131,indonesia,dasdadasdsad,dsadasdasdas,09201931,09320131,firmawan804@yahoo.com,429|2050,1|1,10|10121,1025000|1100000,922500|1089879,,2012379,jika ada barang yang rusak mohon segera di konfirmasi,16
+
+14,2015-03-03 05:53:45,request,14,,xiomi,dsdsa,dsadsadas,03-03-2015 05:53:45
+
+16,2015-03-03 05:55:40,purchase,,1,fdfdsfds,fdfdf,fdfdsfs,32423424,432424,4242,iwanfirmawan69@gmail.com,http://digital-meter-indonesia.com/vm-6360-alat-ukur-getaran/,3231231,03-03-2015 05:55:40
+
+1,2015-03-03 06:04:37,barang,,dsdsa,xiomi+xiomi,3500000,50000,3550000,10,a,50
+
+14,2015-03-06 08:28:36,request,14,,android one,one-123,das asdasdasdasd aasdas,06-03-2015 08:28:36
+
+16,2015-03-06 09:23:54,purchase,,2,dasdsadsa,,,,,,,,,06-03-2015 09:23:54
+
+1,2015-03-06 02:22:38, delete Data <b>notif</b> , id=<b>id</b>
+1,2015-03-07 12:24:43,invoice,THC/INV/03/07/1,1,2015-03-07,1,firmawan804@yahoo.com,sdsadasdsad,dasdasdas,e sds aadas sadsadsadsadas,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,09201931,dsadasdsad,djsahdjk sadas dkasdas                        	
+                                    ,32131232131,dasdsdsadsada,dsahda dsadjsad sadjas,312312312,,dsadad,249,1,2000000,101111,,1898889,1898889,,16
+
+1,2015-03-07 12:32:59,invoice,THC/INV/03/07/4331,1,2015-03-07,1,firmawan804@yahoo.com,dsadsad,dasdsad,dasdsad,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,09201931,sadasdasd,daskdhsadaslkdajsdas,32132132131,eeweqeqwe,dsaihdad dijasdoi dsaodjasodijsad,32131231,,dasdas,249,1,2000000,101111,,1898889,1898889,,16
+
+1,2015-03-07 12:49:30,invoice,THC/INV/03/07/4332,1,2015-03-21,1,firmawan804@yahoo.com,sadasdas,dasdasd,dsadasd,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,09201931,dsadsadsa,ddasdsalkdj askdas sad,3213213213,dadsada,ak lkdjl alkJ JDLajlaDASDASDA dsad ,213123131,,dsadasd,429|2050,1|1,1025000|1100000,10|10121,,922500|1089879,2012379,,16
+
+14,2015-03-07 05:34:05,quotation,THC/QUO/03/07/4333,14,2015-03-07,1,jln DI PANJAITAN no. 128 ,purwokerto,jawa tengah,53131,indonesia,dsadsa,dsadsdsadsa,09201931,09320131,firmawan804@yahoo.com,230|2321,1|1,30000|10,8500000|8900000,8470000|8010000,,16480000,Bila barang dalam kondisi rusak sewaktu Pelanggan terima dari kurir, maka kerusakan tersebut adalah tanggung jawab dari Kami dan akan diganti 100% tanpa ada biaya tambahan.,0
+
+14,2015-03-07 06:14:56,invoice,THC/INV/03/07/4333,14,2015-03-07,1,firmawan804@yahoo.com,dsdasdsa,dsadsad,dsadsa,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,09201931,adji,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,23213123,iwan,jln DI PANJAITAN no. 128 ,purwokerto,banyumas,jawa tengah,53131,indonesia,213213,,adsadsdsdsa,230|2321,1|1,8500000|8900000,30000|10,,8470000|8010000,16480000,,14
+
+1,2015-03-09 11:27:03,invoice,THC/INV/03/09/4331,1,2015-03-09,1,iwanfirmawan69@gmail.com,sdsadaad,dsadasd,adsdsadasd,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,08032000,sadsad,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,23123213123,dsadas,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,3283013213,,sdsad,652|251,1|1,925000|1800000,10|10000,,832500|1790000,2622500,,16
+
+1,2015-03-09 11:45:25,quotation,THC/QUO/03/09/4331,1,2015-03-09,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,dsadsa,dasdsada,08032000,023019,iwanfirmawan69@gmail.com,407|391,1|1,1012121|10,1700000|7200000,687879|6480000,,7167879,Bila barang dalam kondisi rusak sewaktu Pelanggan terima dari kurir, maka kerusakan tersebut adalah tanggung jawab dari Kami dan akan diganti 100% tanpa ada biaya tambahan.,16
+
+1,2015-03-09 11:47:13,quotation,11,THC/QUO/03/09/4331,1,2015-03-09,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,sdad,dsdsad,08032000,023019,iwanfirmawan69@gmail.com,407|391|21,1|1|1,1012121|10|10,1700000|7200000|800000,687879|6480000|720000,,7887879,Bila barang dalam kondisi rusak sewaktu Pelanggan terima dari kurir, maka kerusakan tersebut adalah tanggung jawab dari Kami dan akan diganti 100% tanpa ada biaya tambahan.,16
+
+1,2015-03-09 11:52:41,quotation,11,THC/QUO/03/09/4331,1,2015-03-17,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,dsadsa,dsadsa,08032000,023019,iwanfirmawan69@gmail.com,391|21,1|1,10|10,7200000|800000,6480000|720000,,7200000,Bila barang dalam kondisi rusak sewaktu Pelanggan terima dari kurir, maka kerusakan tersebut adalah tanggung jawab dari Kami dan akan diganti 100% tanpa ada biaya tambahan.,16
+
+1,2015-03-09 12:13:31,cus,,1,mufti robbani,odksadosaksoadksao d odas,purwokerto,banyumas,jawa tengah,432423,indonesia,pangkalanbun16@gmail.com,3213213213,32321321,firmawan804,2091kok,2321321,iwan firmawan,bca
+
+1,2015-03-09 12:14:29,quotation,4331,THC/QUO/03/09/4331,1,2015-03-09,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,dsadas,dasdsad,08032000,023019,iwanfirmawan69@gmail.com,391|21,1|1,10|10,7200000|800000,6480000|720000,,7200000,Bila barang dalam kondisi rusak sewaktu Pelanggan terima dari kurir, maka kerusakan tersebut adalah tanggung jawab dari Kami dan akan diganti 100% tanpa ada biaya tambahan.,16
+
+1,2015-03-09 12:16:39, delete Data <b>invoice</b> , id=<b>id</b>
+1,2015-03-09 12:39:28,invoice,1,THC/INV/03/09/4330,1,2015-03-09,1,iwanfirmawan69@gmail.com,wewew,weqwe,wewq,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,08032000,adwewqe,ewewdsadasd,ewqewqeq,ewqewe,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,23132132321,,dsaweqe,652|251,1|1,925000|1800000,10|10000,,832500|1790000,2622500,,16
+
+1,2015-03-09 12:42:08,invoice,2,THC/INV/03/09/4331,1,2015-03-09,1,iwanfirmawan69@gmail.com,dsadsa,dsdas,dsada,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,08032000,ewqeqe,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,2312321321,ewqewqe,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,banyumas,jawa tengah,32182,indonesia,312312,,dsadsa,391|21,1|1,7200000|800000,10|10,,6480000|720000,7200000,,16
+
+1,2015-03-10 11:31:53,quotation,4336,THC/QUO/03/10/4336,1,2015-03-10,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,dafdfdfdfd,fdfdfdsfs,08032000,023019,iwanfirmawan69@gmail.com,576|478,1|1,10|10,800000|7000000,720000|6300000,,7020000,jika ada barang yang rusak mohon konfirmasinya,16
+
+17,2015-03-11 05:46:35,request,17,,one plus one,19201,Prosesor Qualcomm© Snapdragon™ 801 bertenaga dengan jaringan 4G LTE dan dilengkapi dengan layar memukau 1080p selebar 5.5" serta baterai yang tahan lebih dari seharian.,11-03-2015 05:46:35
+
+17,2015-03-11 05:50:09,quotation,4337,THC/QUO/03/11/4337,17,2015-03-11,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,wewewe,ewqewqewqe,08032000,023019,iwanfirmawan69@gmail.com,739|17,1|1,104432|10,13800000|700000,13695568|630000,,14325568,dasdd sadsadsadsadsadsadsadsadsa,17
+
+16,2015-03-11 06:13:15,purchase,1,1,lazada,lazada,dsdsdsdsads dsadsdsadsadada,32909312321,32321321312,232321312,lazada@gmail.com,,,11-03-2015 06:13:15
+
+16,2015-03-11 06:15:07,purchase,2,1,tokopedia,tokopedia,dsad dj sdjas dsald ksal;dkas;ldkls;akd;,w2312312321,2321312312,321312312,tokopedia@gmail.com,https://www.tokopedia.com/alphablackberry/oneplus-one,,11-03-2015 06:15:07
+
+17,2015-03-11 06:16:37,invoice,3,THC/INV/03/11/4337,17,2015-03-11,1,iwanfirmawan69@gmail.com,odksaokdo,okdoakpo,doskodada,jln di panjaitan no.126, purwokerto barat, jawa tengah,08032000,iwan,jln di panjaitan no.126, purwokerto barat, jawa tengah,32131321,firmawan,jln di panjaitan no.126, purwokerto barat, jawa tengah,3213131,,dsaod,739|17,1|1,13800000|700000,104432|10,,13695568|630000,14325568,,17
+
+16,2015-03-13 11:21:05,purchase,3,1,amazon,amazon,kdjsadk djsakdj sakldjas,3203029,940932-432,43423,sales@amazon.com,,,13-03-2015 11:21:05,
+
+17,2015-03-13 03:30:58,request,17,,RFID Reader,ID-20,5V supply
+125kHz read frequency
+EM4001 64-bit RFID tag compatible
+9600bps TTL and RS232 output
+Magnetic stripe emulation output,13-03-2015 03:30:58
+
+16,2015-03-13 04:16:17,purchase,4,2,dsadsads,dsadada,,,,,,,,13-03-2015 04:16:17,
+
+1,2015-03-13 04:57:30,barang,,19201,one plus one+one plus one,4000000,1000000,5000000,10,a,20
+
+18,2015-03-14 08:55:37,quotation,4338,THC/QUO/03/14/4338,18,2015-03-14,1,sadasd dasdsadsadsadsads sadasdsadsadsd saa,purwokerto,jawa tengah,32182,indonesia,dsadsadsa,dsdasdasda,08032000,023019,iwanfirmawan69@gmail.com,3|188,1|1,15000|10,1600000|1400000,1585000|1260000,,2845000,jika ada barang yang rusak mohon segera dikonfirmasi semisal,0,
+
+18,2015-03-14 09:01:19,request,18,,rfid multi reader,rd-10,dlkds;k kd;skd ;kds;akdsadksd; kdlsd dasdsadsd,14-03-2015 09:01:19
+
+16,2015-03-14 09:02:42,purchase,5,3,alibaba,alibaba indonesia,fsa assasf fasfsfafsafasfafafafafafa,4424234234,4324242,3242342,sales@alibaba.co.id,,,14-03-2015 09:02:42,
+
+1,2015-03-14 09:15:58,purchase,6,3,jakarta notebook,jakrta aje,fdsdsad sadsadsadsad,4213213,21313,3213131,sales@jkt.com,http://192.168.1.126/phpmyadmin/index.php?db=toko&token=dcb67815f1e31a5a9c64b88f11b2decb,,14-03-2015 09:15:58,
+
+1,2015-03-14 09:18:12,barang,,rd-10,rfid multi reader+rfid multi reader,2500000,170000,2670000,10,a,200
+
+18,2015-03-14 09:39:53,postprod,18,,18,http://stackoverflow.com/questions/15874646/multi-conditional-where-clause-in-codeigniter,14-03-2015 09:39:53
+
+18,2015-03-14 09:49:06,postprod,18,2592,18,http://stackoverflow.com/questions/2774538/codeigniter-select-from-multiple-tables,14-03-2015 09:49:06
+
+18,2015-03-14 03:28:29,cus,,18,ravi sofyan,djsalkdjlkjkl asdjasdjas lkdjs a,ciamis,ciamis,jawa barat,093021,indonesia,ravisofyan14@gmail.com,4090932,09403902,ravi79,djas9ij,0930990238,ravi sofyan,bca
+
+18,2015-03-14 03:37:19,invoice,4,THC/INV/03/14/4338,18,2015-03-14,3,ravisofyan14@gmail.com,dhsahjkh,dhsjahda,342342,djsalkdjlkjkl asdjasdjas lkdjs a,ciamis,ciamis,jawa barat,93021,indonesia,4090932,dshdhas,djsalkdjlkjkl asdjasdjas lkdjs a,ciamis,ciamis,jawa barat,93021,indonesia,20380923,ejsea,djsalkdjlkjkl asdjasdjas lkdjs a,ciamis,ciamis,jawa barat,93021,indonesia,83983242,,dsdsa,3|188,1|1,1600000|1400000,15000|10,,1585000|1260000,2845000,,18,
+
+23,2015-03-17 10:57:59,postprod,23,,19,http://digital-meter-indonesia.com/hi96803-refraktometer-glukosa/,17-03-2015 10:57:59
+
+25,2015-03-17 11:43:06,barang,,Tachometer ALL,Semua Product Brosur,,0,,,r,
+

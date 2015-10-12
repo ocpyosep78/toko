@@ -1,0 +1,1 @@
+{"sEcho":0,"iTotalRecords":0,"iTotalDisplayRecords":0,"aaData":[],"sColumns":"nama,alamat,kota,provinsi,kdpos,negara,telp,fax,email,ym,pinbb,norek,an_rek,bank,Actions"}

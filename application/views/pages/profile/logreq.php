@@ -1,0 +1,1 @@
+<?php include APPPATH.'views/pages/profile/tablelogreq.php';?>
